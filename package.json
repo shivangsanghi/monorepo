@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "tsc": "lerna run tsc"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }

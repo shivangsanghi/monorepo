@@ -1,11 +1,11 @@
 {
-  "name": "package-2",
+  "name": "@monorepotest/package-2",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "Shivang Gupta <shivang.gupta@optum.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/package-2.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,6 +15,10 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "start": "node src/index.js"
+    "start": "node lib/index.js",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@monorepotest/package-1": "^1.0.0"
   }
 }

@@ -1,8 +1,8 @@
 'use strict';
-
-module.exports = package1;
-
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.package1 = void 0;
 function package1() {
-    // TODO
-    return "Hello from Package 1"
+    return "Hello from Package 1";
 }
+exports.package1 = package1;
+//# sourceMappingURL=package-1.js.map

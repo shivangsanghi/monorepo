@@ -1,0 +1,17 @@
+0 silly argv { _: [ 'run' ], lernaVersion: '4.0.0', '$0': 'lerna', script: 'tsc' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/s202/Documents/personal/monorepo-example
+3 info versioning independent
+4 error JSONError: Unexpected token "}" (0x7D) in JSON at position 270 while parsing near "...st\": \"__tests__\",\n  },\n  \"files\": [\n    ..." in packages/package-1/package.json
+4 error
+4 error [0m [90m 10 |[39m     [32m"lib"[39m[33m:[39m [32m"lib"[39m[33m,[39m[0m
+4 error [0m [90m 11 |[39m     [32m"test"[39m[33m:[39m [32m"__tests__"[39m[33m,[39m[0m
+4 error [0m[31m[1m>[22m[39m[90m 12 |[39m   }[33m,[39m[0m
+4 error [0m [90m    |[39m   [31m[1m^[22m[39m[0m
+4 error [0m [90m 13 |[39m   [32m"files"[39m[33m:[39m [[0m
+4 error [0m [90m 14 |[39m     [32m"lib"[39m[0m
+4 error [0m [90m 15 |[39m   ][33m,[39m[0m
+4 error
+4 error     at parseJson (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:29:21)
+4 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)
+4 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:18:47)
